@@ -20,6 +20,6 @@ _The image above demonstrates the plugin in action, featuring character models f
 
 ## License
 
-This project (the Godot plugin port) is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+This project is licensed under the **Mozilla Public License v2.0 (MPL-2.0)**.
 
-However, the core Dither3D implementation (shaders and algorithm logic) is ported from [Dither3D](https://github.com/runevision/Dither3D) by Rune Skovbo Johansen, which is licensed under the **Mozilla Public License v2.0 (MPL-2.0)**.
+This is a port of [Dither3D](https://github.com/runevision/Dither3D) by Rune Skovbo Johansen, which is also licensed under MPL-2.0.
