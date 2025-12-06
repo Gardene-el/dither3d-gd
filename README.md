@@ -1,6 +1,10 @@
 # Surface-Stable Fractal Dithering for Godot
 
-This is a port of [Dither3D](https://github.com/runevision/Dither3D) to Godot Engine, packaged as a plugin.
+This project is a port of [Dither3D](https://github.com/runevision/Dither3D) to Godot Engine, packaged as a plugin.
+
+<img width="2992" height="1345" alt="4c71ec9d76669ef614f65f360eca6170" src="https://github.com/user-attachments/assets/1ad14628-e381-4fbf-9aac-5b550c3a5a5c" />
+
+_The image above demonstrates the plugin in action, featuring character models from [namekuji1337](https://namekuji1337.booth.pm/items/5613012) and environment assets from [Modular Roads](https://atomicrealm.itch.io/modular-roads)._
 
 ## Features
 
