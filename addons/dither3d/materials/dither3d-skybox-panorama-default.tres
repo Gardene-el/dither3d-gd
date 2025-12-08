@@ -1,0 +1,24 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://dal046xxsdpvp"]
+
+[ext_resource type="Shader" uid="uid://bwuo8legkprhk" path="res://addons/dither3d/shaders/Dither3DSkyboxPanorama.gdshader" id="1_avaui"]
+[ext_resource type="Texture2D" uid="uid://sub8nrtn652" path="res://addons/dither3d/textures/Dither3D_8x8_Ramp.png" id="2_jxhrt"]
+[ext_resource type="ImageTexture3D" uid="uid://d3oy3k1ohpcj8" path="res://addons/dither3d/textures/Dither3D_8x8.res" id="3_ni2op"]
+
+[resource]
+shader = ExtResource("1_avaui")
+shader_parameter/tint_color = Color(0.37205535, 0.4648404, 0.8674986, 0.5019608)
+shader_parameter/exposure = 1.0
+shader_parameter/rotation = 0.0
+shader_parameter/input_exposure = 1.0
+shader_parameter/input_offset = 0.0
+shader_parameter/dither_mode = 1
+shader_parameter/dither_tex = ExtResource("3_ni2op")
+shader_parameter/dither_ramp_tex = ExtResource("2_jxhrt")
+shader_parameter/dot_scale = 5.0
+shader_parameter/size_variability = 0.0
+shader_parameter/contrast = 1.0
+shader_parameter/stretch_smoothness = 1.0
+shader_parameter/inverse_dots = false
+shader_parameter/radial_compensation = true
+shader_parameter/quantize_layers = false
+shader_parameter/debug_fractal = false
